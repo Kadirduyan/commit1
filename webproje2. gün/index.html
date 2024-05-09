@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <style>
+        /* Global Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Josefin Sans", sans-serif;
+            background-color: #f8f9fa;
+        }
+
+        /* Topbar Styles */
+        .topbar {
+            background-color: #343a40;
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+        }
+
+        .topbar a {
+            color: #fff;
+            text-decoration: none;
+            margin-right: 15px;
+        }
+
+        .topbar a:hover {
+            color: #ffc107;
+        }
+
+        .topbar .left i,
+        .topbar .right i {
+            font-size: 1.5rem;
+            margin-right: 10px;
+        }
+
+        .topbar .right img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+
+        .topbar .searchEngine {
+            display: flex;
+            align-items: center;
+            position: relative;
+        }
+
+        .topbar .searchEngine input {
+            width: 200px;
+            height: 30px;
+            border-radius: 5px;
+            padding: 5px 10px;
+            margin-right: 10px;
+            border: 1px solid #ced4da;
+        }
+
+        .topbar .searchEngine i {
+            position: absolute;
+            right: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="topbar">
+        <div class="left">
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-whatsapp"></i>
+        </div>
+        <div class="center">
+            <a href="/HAKKIMDA">HAKKIMDA</a>
+            <a href="/CV">CV</a>
+            <a href="/ŞEHRİM">ŞEHRİM</a>
+            <a href="/MİRASIMIZ">MİRASIMIZ</a>
+            <a href="/İLGİ ALANLARI">İLGİ ALANLARI</a>
+            <a href="/LOGIN">LOGIN</a>
+        </div>
+        <div class="right">
+            <span>
+                <img src="public/img/websitefoto4.webp" alt="user">
+            </span>
+            <div class="searchEngine" id="searchEngine">
+                <input type="text" placeholder="Search...">
+                <i class="fas fa-search" id="searchIcon"></i>
+            </div>
+        </div>
+    </div>
+    <script src="public/js/search.js"></script>
+</body>
+
+</html>

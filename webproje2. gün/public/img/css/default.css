@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh; /* Ekranın tamamını kaplayacak şekilde ayarla */
+    background-image: url('arka_plan_resmi.jpg'); /* Arka plan resmini belirle */
+    background-size: cover; /* Resmin ekran boyutuna tam olarak sığmasını sağla */
+    background-position: center; /* Resmi ekranın ortasına yerleştir */
+    background-repeat: no-repeat; /* Resmin tekrar etmemesini sağla */
+    font-family: Arial, sans-serif; /* Font ayarları */
+    color: #333; /* Metin rengi */
+}
+
+.container {
+    max-width: 1200px; /* İçerik genişliğini ayarla */
+    margin: 0 auto; /* İçeriği ortala */
+    padding: 20px; /* Kenar boşlukları */
+}
+
+h1 {
+    font-size: 32px; /* Başlık boyutu */
+    margin-bottom: 20px; /* Başlık alt boşluk */
+}
+
+p {
+    font-size: 16px; /* Paragraf boyutu */
+    line-height: 1.5; /* Satır yüksekliği */
+    margin-bottom: 10px; /* Paragraf alt boşluk */
+}
